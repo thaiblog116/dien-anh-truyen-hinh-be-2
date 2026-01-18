@@ -1,6 +1,10 @@
 export default ({ env }: { env: any }) => ({
   // Các plugin khác nếu có...
-
+  upload: {
+    config: {
+      sizeLimit: 5 * 1024 * 1024,   // 5MB (bytes) – Strapi sẽ throw lỗi nếu vượt
+    },
+  },
   "users-permissions": {
     config: {
       register: {

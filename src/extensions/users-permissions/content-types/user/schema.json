@@ -68,6 +68,15 @@
     },
     "fullname": {
       "type": "string"
+    },
+    "certificateRequest": {
+      "type": "text"
+    },
+    "capacityProfile": {
+      "type": "text"
+    },
+    "businessRegistration": {
+      "type": "text"
     }
   }
 }
